@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+</head>
+<body>
+    <h1>Monthly Attendance Sheet</h1>
+    <!-- <form id="add-student-form"> -->
+        <!-- <input type="text" id="student-name" placeholder="Student Name" required>
+        <input type="text" id="father-name" placeholder="Father Name" required>
+        <input type="text" id="roll-number" placeholder="Roll Number" required>
+        <select id="class-name">
+            <option value="8th">8th</option>
+            <option value="9th">9th</option>
+            <option value="10th">10th</option>
+        </select> -->
+        <!-- <button type="submit">Add Student</button> -->
+    </form>
+
+    <table id="attendance-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Father's Name</th>
+                <th>Roll Number</th>
+                <th>Class</th>
+                <th>Present</th>
+                <th>Absent</th>
+                <th>On Leave</th>
+                <th>Attendance</th>
+            </tr>
+        </thead>
+        <tbody id="student-list">
+            
+        </tbody>
+    </table>
+
+    <table id="student-list">
+        
+    </table>
+
+    <form id="add-student-form">
+        <input type="text" id="student-name" placeholder="Student Name" required>
+        <input type="text" id="father-name" placeholder="Father's Name" required>
+        <input type="text" id="roll-number" placeholder="Roll Number" required>
+        <input type="text" id="class-name" placeholder="Class" required>
+        <button type="submit">Add Student</button>
+    </form>
+
+    <table id="attendance-summary">
+        <thead>
+            <tr>
+                <th>Present</th>
+                <th>Absent</th>
+                <th>On Leave</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="total-present">0</td>
+                <td id="total-absent">0</td>
+                <td id="total-leave">0</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
